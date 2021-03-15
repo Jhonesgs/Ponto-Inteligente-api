@@ -33,6 +33,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -50,6 +51,8 @@
 		</dependency>
 	</dependencies>
 		
+=======
+>>>>>>> fb97cf0c073d70ba37834fe81667ff12dc27c3c4
 	<build>
 		<plugins>
 			<plugin>
@@ -60,6 +63,28 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+	
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-conector-java</artifactId>
+			<escope>runtime</escope>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+	
 
 	
 </project>
